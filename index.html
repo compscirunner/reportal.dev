@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reportal — apps for repurposed Meta Portals</title>
+  <meta name="description" content="A community gallery of sideloadable apps for repurposed Meta / Facebook Portal devices, auto-aggregated from the GitHub 'meta-portal' topic.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="top">
+    <div class="brand">
+      <span class="logo">◉</span>
+      <div>
+        <h1>Reportal</h1>
+        <p class="tag">Apps for repurposed Meta Portals — pulled live from the
+          <a href="https://github.com/topics/meta-portal" target="_blank" rel="noopener"><code>meta-portal</code></a> GitHub topic.</p>
+      </div>
+    </div>
+    <input id="search" type="search" placeholder="Search apps…" autocomplete="off" aria-label="Search apps">
+  </header>
+
+  <main>
+    <p id="status" class="status">Loading apps…</p>
+    <section id="grid" class="grid" aria-live="polite"></section>
+  </main>
+
+  <footer class="foot">
+    <p>Made something for a Portal? Add the <a href="https://github.com/topics/meta-portal" target="_blank" rel="noopener"><code>meta-portal</code></a>
+       topic to your repo and (optionally) a <a href="SPEC.md"><code>meta-portal.json</code></a> manifest — it'll show up here automatically.</p>
+    <p class="fine">Reportal is an unofficial community project, not affiliated with Meta. Built static; your browser talks to GitHub directly.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
