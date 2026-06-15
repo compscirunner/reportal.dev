@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reportal Widgets — web widgets for repurposed Meta Portals</title>
+  <meta name="description" content="A community gallery of web widgets for repurposed Meta / Facebook Portal devices, auto-aggregated from the GitHub 'meta-portal-widget' topic.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="top">
+    <div class="brand">
+      <span class="logo">◉</span>
+      <div>
+        <h1>Reportal</h1>
+        <p class="tag">Web widgets for repurposed Meta Portals — pulled live from the
+          <a href="https://github.com/topics/meta-portal-widget" target="_blank" rel="noopener"><code>meta-portal-widget</code></a> GitHub topic.</p>
+      </div>
+    </div>
+    <nav class="nav">
+      <a href="/">Apps</a>
+      <a href="/widgets.html" class="active">Widgets</a>
+    </nav>
+    <input id="search" type="search" placeholder="Search widgets…" autocomplete="off" aria-label="Search widgets">
+  </header>
+
+  <main>
+    <section class="makeyours">
+      <h2>Make your own widget — no coding</h2>
+      <p>Hand the <a href="https://github.com/compscirunner/clock-widget" target="_blank" rel="noopener">clock widget</a>
+         to an AI assistant you already use (ChatGPT, Claude, …) and say “make me a ___ widget.”
+         Or <a href="https://github.com/compscirunner/clock-widget/generate" target="_blank" rel="noopener"><b>use it as a template</b></a>.
+         See <a href="https://github.com/compscirunner/clock-widget/blob/main/MAKE-A-WIDGET.md" target="_blank" rel="noopener">MAKE-A-WIDGET.md</a>.
+         Tag your repo <code>meta-portal-widget</code> and it appears here — and in the Portal Widgets app — automatically.</p>
+    </section>
+
+    <p id="status" class="status">Loading widgets…</p>
+    <section id="grid" class="grid" aria-live="polite"></section>
+  </main>
+
+  <footer class="foot">
+    <p>A widget is a public GitHub repo tagged <a href="https://github.com/topics/meta-portal-widget" target="_blank" rel="noopener"><code>meta-portal-widget</code></a>
+       with an <code>index.html</code> and a <code>meta-portal-widget.json</code> manifest.</p>
+    <p class="fine">Reportal is an unofficial community project, not affiliated with Meta. Built static; your browser talks to GitHub directly.</p>
+  </footer>
+
+  <script src="widgets.js"></script>
+</body>
+</html>

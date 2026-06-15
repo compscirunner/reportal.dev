@@ -117,3 +117,21 @@ main { padding: 24px clamp(16px, 4vw, 48px) 8px; }
 }
 .foot p { margin: 6px 0; }
 .foot .fine { font-size: 12px; opacity: .8; }
+
+/* Apps / Widgets tabs */
+.nav { display: flex; gap: 8px; }
+.nav a {
+  padding: 7px 14px; border-radius: 999px;
+  border: 1px solid var(--line); background: var(--panel);
+  color: var(--muted); font-size: 13px; font-weight: 600;
+}
+.nav a:hover { text-decoration: none; border-color: var(--accent); color: var(--text); }
+.nav a.active { color: #fff; border-color: var(--accent); background: var(--panel-2); }
+
+/* "Make your own widget" panel */
+.makeyours {
+  background: var(--panel); border: 1px solid var(--line);
+  border-radius: 14px; padding: 16px 18px; margin: 0 0 22px;
+}
+.makeyours h2 { margin: 0 0 6px; font-size: 18px; }
+.makeyours p { margin: 0; color: #c4d2e6; font-size: 13.5px; max-width: 80ch; }
