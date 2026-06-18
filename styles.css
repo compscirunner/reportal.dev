@@ -135,6 +135,3 @@ main { padding: 24px clamp(16px, 4vw, 48px) 8px; }
 }
 .makeyours h2 { margin: 0 0 6px; font-size: 18px; }
 .makeyours p { margin: 0; color: #c4d2e6; font-size: 13.5px; max-width: 80ch; }
-
-/* "(beta)" marker — subtle parenthetical, not a badge */
-.beta { margin-left: 4px; font-size: 12px; font-weight: 600; color: var(--muted); }
